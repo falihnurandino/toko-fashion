@@ -6,11 +6,27 @@
     <link href="/dist/output.css" rel="stylesheet" />
   </head>
   <body>
-    <!--Navbar-->>
+    <!-- Topnav -->
+    <div class="bg-blue-700 w-full p-2">
+      <div class="container mx-auto flex justify-center md:justify-between">
+        <p class="text-white hidden md:flex">
+          <img src="assets/images/call.svg" alt="call" class="mr-1" />0834 321
+          765
+        </p>
+        <p class="text-white">Dapatkan promo beli 1 gratis 1</p>
+        <p class="text-white hidden md:flex">
+          <img
+            src="assets/images/location.svg"
+            alt="location"
+            class="mr-1"
+          />Depok, Indonesia
+        </p>
+      </div>
+    </div>
+    <!-- End of Topnav  -->
 
-    <nav
-      class="bg-white px-2 sm:px-4 py-2.5 dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600"
-    >
+    <!--Navbar-->
+    <nav class="bg-white px-2 sm:px-4 py-2.5 w-full">
       <div
         class="container flex flex-wrap items-center justify-between mx-auto"
       >
@@ -24,13 +40,13 @@
         <div class="flex md:order-2">
           <button
             type="button"
-            class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-1 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            class="text-blue-700 bg-white border border-blue-700 hover:bg-blue-700 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-1"
           >
             Login
           </button>
           <button
             type="button"
-            class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0"
           >
             Register
           </button>
@@ -62,12 +78,12 @@
           id="navbar-sticky"
         >
           <ul
-            class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+            class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:border-gray-700"
           >
             <li>
               <a
                 href="#"
-                class="block py-2 pl-3 pr-4 text-gray-700 bg-blue-700 rounded md:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-gray-400 font-bold"
+                class="block py-2 pl-3 pr-4 text-gray-900 bg-blue-700 rounded md:bg-transparent md:hover:text-blue-700 md:p-0 font-bold"
                 aria-current="page"
                 >Home</a
               >
@@ -76,7 +92,7 @@
               <button
                 id="dropdownNavbarLink"
                 data-dropdown-toggle="dropdownNavbar"
-                class="flex items-center justify-between w-full py-2 pl-3 pr-4 font-bold text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-gray-400 dark:hover:text-white dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
+                class="flex items-center justify-between w-full py-2 pl-3 pr-4 font-bold text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:border-gray-700 dark:hover:bg-gray-700"
               >
                 Kategori
                 <svg
@@ -129,7 +145,7 @@
             <li>
               <a
                 href="#"
-                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-blue-700 md:dark:hover:bg-transparent dark:border-gray-700 font-bold"
+                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:hover:bg-gray-700 md:dark:hover:bg-transparent dark:border-gray-700 font-bold"
                 >Promo</a
               >
             </li>
@@ -137,8 +153,36 @@
         </div>
       </div>
     </nav>
+    <!--ENd of Navbar-->
 
-    <!--ENd of Navbar-->>
+    <!-- Hero -->
+    <div class="bg-blue-200 h-1/2 w-full">
+      <div
+        class="container mx-auto grid grid-cols-1 md:grid-cols-2 items-center"
+      >
+        <div class="flex justify-center md:order-2">
+          <img
+            src="assets/images/hero.png"
+            alt="hero"
+            class="h-64 md:h-96 mb-4 md:mb-0"
+          />
+        </div>
+        <div class="ml-5">
+          <p class="font-light text-xl">Diskon 20% Hari ini</p>
+          <p class="font-black text-3xl md:text-6xl">
+            Promo 2023 <br />
+            Jacket Collection
+          </p>
+          <button
+            type="button"
+            class="mt-5 text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
+          >
+            Beli Sekarang
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- End of Hero  -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.js"></script>
   </body>
