@@ -245,7 +245,9 @@
     <!-- Prouct -->
     <div class="container mt-8 mx-auto">
       <h1 class="font-bold text-2xl mx-5 md:mx-0">Top Products</h1>
-      <div class="mt-4 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-3 mx-5 md:mx-0">
+      <div
+        class="mt-4 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-3 mx-5 md:mx-0"
+      >
         <div class="border border-slate-400 p-4 rounded-2xl">
           <div class="bg-blue-200 p-4 flex justify-center rounded-2xl">
             <img src="assets/images/category1.png" alt="T-shirt" class="h-48" />
@@ -333,8 +335,33 @@
             </div>
           </div>
         </div>
+      </div>
+    </div>
 
     <!-- End of product -->
+
+    <!-- Subscribe form  -->
+    <div class="w-full mt-8 bg-gray-300 flex flex-col items-center p-12">
+      <p class="font-black text-2xl">Let's Keep In Touch</p>
+      <p class="font-normal text-center">
+        Segera isi untuk dapatkan diskon 15% untuk pemesanan pertama
+      </p>
+      <div class="mt-4 flex rounded-md shadow-sm">
+        <input
+          type="text"
+          name="company-website"
+          id="company-website"
+          class="py-2 px-5 block md:w-72 flex-1 rounded-none rounded-l-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 text-lg"
+          placeholder="Enter your email..."
+        />
+        <span
+          class="inline-flex items-center rounded-r-md bg-black px-3 text-lg text-white"
+          >Subscribe</span
+        >
+      </div>
+    </div>
+
+    <!-- End of subscribe  -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.js"></script>
   </body>
