@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/dist/output.css" rel="stylesheet" />
   </head>
-  <body class="pb-48">
+  <body>
     <!-- Topnav -->
     <div class="bg-blue-200 w-full p-2">
       <div class="container mx-auto flex justify-center md:justify-between">
@@ -364,7 +364,9 @@
 
     <!-- FAQ -->
     <div class="container mx-auto p-12">
-      <p class="text-center font-bold text-2xl">Frequently Asked Question (FAQ)</p>
+      <p class="text-center font-bold text-2xl">
+        Frequently Asked Question (FAQ)
+      </p>
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-5 mt-8">
         <div id="accordion-collapse" data-accordion="collapse">
@@ -376,9 +378,7 @@
               aria-expanded="false"
               aria-controls="accordion-collapse-body-1"
             >
-              <span
-                >Bagaimana caranya memesan?</span
-              >
+              <span>Bagaimana caranya memesan?</span>
               <svg
                 data-accordion-icon
                 class="w-6 h-6 shrink-0"
@@ -411,7 +411,7 @@
               </p>
             </div>
           </div>
-          </div>
+        </div>
 
         <div id="accordion-collapse" data-accordion="collapse">
           <h2 id="accordion-collapse-heading-2">
@@ -422,9 +422,7 @@
               aria-expanded="false"
               aria-controls="accordion-collapse-body-2"
             >
-              <span
-                >Berapa ongkirnya?</span
-              >
+              <span>Berapa ongkirnya?</span>
               <svg
                 data-accordion-icon
                 class="w-6 h-6 shrink-0"
@@ -468,9 +466,7 @@
               aria-expanded="false"
               aria-controls="accordion-collapse-body-3"
             >
-              <span
-                >Berapa caranya pengembalian barang?</span
-              >
+              <span>Berapa caranya pengembalian barang?</span>
               <svg
                 data-accordion-icon
                 class="w-6 h-6 shrink-0"
@@ -509,14 +505,12 @@
           <h2 id="accordion-collapse-heading-4">
             <button
               type="button"
-              class="flex items-center justify-between w-full p-5 font-medium text-left text-black border border-gray-200 focus:ring-2 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-300  dark:hover:bg-gray-100"
+              class="flex items-center justify-between w-full p-5 font-medium text-left text-black border border-gray-200 focus:ring-2 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-300 dark:hover:bg-gray-100"
               data-accordion-target="#accordion-collapse-body-4"
               aria-expanded="false"
               aria-controls="accordion-collapse-body-4"
             >
-              <span
-                >Bagaimana cara menggunakan diskon?</span
-              >
+              <span>Bagaimana cara menggunakan diskon?</span>
               <svg
                 data-accordion-icon
                 class="w-6 h-6 shrink-0"
@@ -537,10 +531,8 @@
             class="hidden"
             aria-labelledby="accordion-collapse-heading-4"
           >
-            <div
-              class="p-5 font-light border border-t-0 border-gray-200 "
-            >
-              <p class="mb-2 text-black ">
+            <div class="p-5 font-light border border-t-0 border-gray-200">
+              <p class="mb-2 text-black">
                 The main difference is that the core components from Flowbite
                 are open source under the MIT license, whereas Tailwind UI is a
                 paid product. Another difference is that Flowbite relies on
@@ -550,9 +542,28 @@
             </div>
           </div>
         </div>
-      
+      </div>
     </div>
     <!-- End of FAQ -->
+
+    <!-- Footer  -->
+    <div class="w-full mt-8 bg-blue-200 flex flex-col items-center p-8">
+      <img src="assets/logo.svg" alt="Logo" />
+      <p class="font-medium text-center mt-3">
+        Jalan Sumpah Pemuda No. 25 <br />
+        Beji Depok (Gedung A Lantai 2)
+      </p>
+      <div class="flex mt-3">
+        <img src="assets/images/ig.svg" alt="Logo instagram" />
+        <img src="assets/images/fb.svg" alt="Logo facebook" />
+        <img src="assets/images/tiktok.svg" alt="Logo tiktok" />
+      </div>
+    </div>
+    <!-- End of footer  -->
+
+    <div class="bg-blue-200 text-center">
+      <p class="font-medium">Copyright © 2023 Falih Nur Andino</p>
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.js"></script>
   </body>
